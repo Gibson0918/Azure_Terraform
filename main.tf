@@ -80,7 +80,7 @@ resource "azurerm_network_interface" "mtc_nic" {
   ip_configuration {
     name                          = "internal"
     subnet_id                     = azurerm_subnet.mtc-subnet.id
-    private_ip_address_allocation = "Static"
+    private_ip_address_allocation = "Dynamic"
     public_ip_address_id          = azurerm_public_ip.mtc-public-ip.id
   }
 

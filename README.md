@@ -4,8 +4,6 @@ The goal of doing this readme is to document my progress on learning terraform.
 ## [Setting up terraform](https://learn.microsoft.com/en-us/azure/developer/terraform/get-started-windows-powershell)
 > [!IMPORTANT]
 > Do set your Path variables to point at the directory where you downloaded the binary terraform executable.
-Since I'm on a windows machine, I used powershell to perform the installation of terraform on my machine. 
-
 
 ## Useful Terraform commands
 1. terraform apply
